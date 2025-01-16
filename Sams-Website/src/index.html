@@ -8,7 +8,22 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <p>"My Name is Sam"</p>
+  <h1>
+    Sams Website
+  </h1>
+  <p>
+
+    This is my website, welcome!
+  </p>
+
+  <button button = "button" ng-click="click(this)">
+   Next Page
+  </button>
+  <br>
+  <!-- Dynamically created button using repeat -->
+  <button button = "button" ng-repeat="i in range(0, counter)">
+   Quit
+  </button>
   <app-root></app-root>
 </body>
 </html>
